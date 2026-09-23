@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="robots" content="nofollow, noindex">
+        <meta name="description" content="This week we will be looking at media and an introduction to CSS.">
+        <title>Week 3 | Media & CSS</title>
+        <!--Add our CSS-->
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <img src ="./img/lorem-logo.png" alt="header logo">
+            <nav>
+                <menu>
+                    <li><a href="index.html">Link One</a></li>
+                    <li><a href="index.html">Link Two</a></li>
+                    <li><a href="index.html">Link Three</a></li>
+                </menu>
+            </nav>
+        </header>
+        <!--The main text of this page-->
+        <main>
+            <!--This first section of content is called a hero/masthead-->
+            <section>
+                <div>
+                    <h1>This is an Introduction Title</h1>
+                </div>
+            </section>
+            <section>
+                <!--Column one-->
+                <div>
+                    <figure>
+                        <img src="./img/toronto.jpg" alt="Toronto Skyline">
+                        <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, non qui sequi sapiente quod similique adipisci ipsa sit commodi rem est soluta quasi! Quod illo ratione aut asperiores fugit libero.</figcaption>
+                    </figure>
+                </div>
+                <!--Column two-->
+                <div>
+                    <h2>I am a title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit aliquam ratione neque, libero ullam exercitationem facere cum quos dolore odio nisi officiis! Porro nam, dignissimos corporis quis odio doloremque nobis?</p>
+                </div>
+            </section>
+            <!--our next row of content will hold our videos-->
+           <section>
+             <div>
+                <h3>iFrame Video</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/r6L-GUOAhGo?si=hiThSPTJWwonJBQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h3>HTML Video Player Example</h3>
+                <video controls loop autoplay poster="./img/toronto.jpg">
+                    <source src="./video/toronto.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+           </section>
+        </main>
+        <footer>
+           <h6> &copy; Week 3 | Media & CSS</h6>
+        </footer>
+    </body>
+</html>
