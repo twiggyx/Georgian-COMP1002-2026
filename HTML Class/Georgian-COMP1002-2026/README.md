@@ -1,1 +1,0 @@
-# Georgian-COMP1002-2026
