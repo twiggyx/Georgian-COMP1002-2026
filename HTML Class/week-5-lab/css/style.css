@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    max-height: 300px;
+    margin: 100px auto;
+}
+header {
+      height: 56px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+header img{
+    max-height: 40px;
+}
+nav menu{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.hero p{
+    max-width: 300px;
+    padding: 20px;
+}
