@@ -1,3 +1,9 @@
+*{
+    /*Setting all elements to have no margin and padding*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header{
   display: flex;
   align-items: center;
@@ -22,4 +28,22 @@ nav a{
   color: #000000;
   font-size: 1.25rem;
   text-decoration: none;
+}
+body{
+    /*Setting background colour of the whole page to songs cover art colour*/
+    margin: 0;
+    background-color: #edecd6;
+}
+.Main-Title{
+    /*Making main title of the page bigger and bold*/
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  /*Adding shadow and color to main title to stand out from background*/
+  color: #fdfcfa;
+  text-shadow: 2px 2px 4px #000000;
+  /*Addding a Background and border to the whole Title */
+  outline: 2px solid #0a0a06;
+  background-image: url("../img/heroimage.png")
 }
