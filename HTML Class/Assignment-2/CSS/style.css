@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #ecda75;
+  padding: 0 20px;
+}
+
+.header-logo{
+  /*Making logo small square on left side of header*/
+  display: block;
+  height: 40px;
+  margin: 0;
+}
+header menu{
+    /*Making menu items pushed to the right side of header*/
+  right: 30px;
+}
+nav a{
+    /*Making menu items black and removing underline*/
+  color: #000000;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
