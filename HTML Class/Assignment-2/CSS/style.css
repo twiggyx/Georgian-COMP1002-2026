@@ -58,6 +58,30 @@ body{
   color: #060400;
   text-shadow: 1px 1px .5px #000000;
 }
+.Burn{
+    /*Setting all the "burns" in lyrics to be red and fire font*/
+    color: #cf1920;
+    font-weight: bold;
+    font-family: Blaze;
+}
+.Headings{
+    /*Making headings bigger and bold+italic*/
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    /*Adding padding around headings*/
+    padding: 20px;
+}
+@font-face {
+    /*importing outside fire font*/
+    font-family: Blaze;
+    src: url("../fonts/BlazeOfGlory-6RBAx.ttf");
+}
+.Verse-1{
+    /*Setting font family for the draggy feeling intro verse*/
+    font-family: "Grechen Fuemen", cursive;
+}
 
 
 footer{
