@@ -78,9 +78,17 @@ body{
     font-family: Blaze;
     src: url("../fonts/BlazeOfGlory-6RBAx.ttf");
 }
-.Verse-1{
-    /*Setting font family for the draggy feeling intro verse*/
+.Verse-1, .Verse-2{
+    /*Setting font family for the prolonged feeling on Verses verse*/
     font-family: "Grechen Fuemen", cursive;
+}
+.Chorus{
+    /*Setting font for strong and loud chorus*/
+    font-family: "Bebas Nue", sans-serif;
+}
+.Bridge{
+    /*Setting font for yearning/dragging Bridge*/
+    font-family: "Edu QLD Hand", cursive;
 }
 
 
