@@ -43,7 +43,29 @@ body{
   /*Adding shadow and color to main title to stand out from background*/
   color: #fdfcfa;
   text-shadow: 2px 2px 4px #000000;
-  /*Addding a Background and border to the whole Title */
+  /*Addding a Background and border to the whole div */
   outline: 2px solid #0a0a06;
   background-image: url("../img/heroimage.png")
+}
+.Lyrics{
+    /*text centering and padding on top and bottom */
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.5;
+  /*Adding shadow and color to lyrics to stand out from background*/
+  color: #060400;
+  text-shadow: 1px 1px .5px #000000;
+}
+
+
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 38px;
+  background-color: #ecda75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
