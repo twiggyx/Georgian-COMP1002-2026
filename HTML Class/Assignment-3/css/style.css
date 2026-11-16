@@ -1,0 +1,35 @@
+body{
+    background-image: url('../img/Talladega-Nights-Blank-BG.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}   
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.WillFerrel {
+    position: absolute;
+    top: 43%;
+    left: 65%;
+    transform: rotate(-9deg);
+    text-align: center;
+    color: #f9fc29;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.TalladegaNights{
+    position: absolute;
+    width: 80%;
+    top: 66%;
+    left: 9%;
+    font-size: 70px;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #637db2;
+    transform: rotate(-7.7deg) scaleX(1.6);
+    transform-origin: left;
+    letter-spacing: 12px;
+}
