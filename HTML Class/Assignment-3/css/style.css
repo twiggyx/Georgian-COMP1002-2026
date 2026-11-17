@@ -95,5 +95,28 @@ html, body {
     position: absolute;
     top: 92%;
     left: 10%;
+}
 
+.BottomLeftLinks{
+    /*Setting Characteristics of font */
+    color: #bababa;
+    list-style-type: none;
+    /*Setting Position of Links */
+    position: absolute;
+    top: 99.5%;
+    left: 10%;
+}
+
+a {
+    /*Removing Underline from link */
+  text-decoration: none;
+}
+
+ul{
+    /*Setting the ul to flex so li can wrao beside each other */
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    padding: 1px;
+    margin: 0;
 }
