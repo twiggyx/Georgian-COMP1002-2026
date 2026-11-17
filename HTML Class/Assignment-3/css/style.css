@@ -1,35 +1,99 @@
 body{
+    /*setting background image to blank movie poster */ 
     background-image: url('../img/Talladega-Nights-Blank-BG.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    /*Making background centered and singular photo in block */
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }   
 
 html, body {
-    height: 100%;
+    /*Setting sizing for background imaging to take full screen */
+    height: 100vh;
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
 .WillFerrel {
+    /*Setting position of text block */
     position: absolute;
-    top: 43%;
-    left: 65%;
-    transform: rotate(-9deg);
+    top: 49.5%;
+    left: 64%;
+    /*Setting text block angle and width of text */
+    transform: rotate(-8.7deg) scaleX(3.9);
+    /*Setting font characteristics */
     text-align: center;
     color: #f9fc29;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
     text-shadow: 2px 2px 4px #000000;
 }
 .TalladegaNights{
+    /* Setting position of text block in main red banner*/
     position: absolute;
-    width: 80%;
-    top: 66%;
+    top: 67%;
     left: 9%;
+    /*Setting font characteristics */
     font-size: 70px;
     color: #ffffff;
-    text-shadow: 4px 4px 4px #637db2;
-    transform: rotate(-7.7deg) scaleX(1.6);
+    text-shadow: 2px 0px 0px #637db2;
+    letter-spacing: -3px;
+    font-family: "Bebas Neue", sans-serif;
+    /*Setting text block tilt, letter slanting, and width of text*/
+    transform: rotate(-7.7deg) scaleX(3.7) skewX(-3deg);
     transform-origin: left;
-    letter-spacing: 12px;
+}
+.TheBallad{
+    /*Setting position of text in poster */
+    position: absolute;
+    top: 67%;
+    left: 52.5%;
+    /*Setting font characteristics*/
+    font-size: 35px;
+    letter-spacing: -1px;
+    font-family: "Ballad", sans-serif;
+    color: #6885c2;
+    text-shadow: 2px 2px 4px #ffffff;
+    /* angling text and scaling width */
+    transform: rotate(-6.5deg) scaleX(1.1);
+}
+
+@font-face {
+    /*Importing Custom Font From Web*/
+    font-family: Ballad;
+    src: url("../fonts/YouCantKillOldSchoolRegular-Gwrm.ttf");
+}
+
+@font-face {
+    /*Importing custom font */
+    font-family: Credits;
+    src: url("../fonts/BiotripSerifCapsRegular-ov89a.ttf");
+}
+
+.August4{
+    /*Setting Font Characteristics*/
+    font-size: 30px;
+    color: #c11e41;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: -1px;
+    /*Setting position of text block */
+    position: absolute;
+    top: 95%;
+    left: 50%;
+}
+
+.BottomText{
+    /*Setting font Characteristics*/
+    font-size: 15px;
+    font-family: "Credits", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 100;
+    color: #bababa;
+    line-height: 1;
+    /*Setting postion of text block */
+    position: absolute;
+    top: 92%;
+    left: 10%;
+
 }
